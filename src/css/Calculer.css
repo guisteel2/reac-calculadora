@@ -1,0 +1,14 @@
+.Calculadora {
+  height: 320px;
+  width: 235px;
+  border-radius: 5px;
+  overflow: hidden;
+  /* background-color: red; */
+
+  /* cria a grid view */
+  display: grid;
+  /* falando o tamnho dela */
+  grid-template-columns: repeat(4, 25%);
+  /* determinando os tamanho das linhas da grid */
+  grid-template-rows:1fr 48px 48px 48px 48px;
+}

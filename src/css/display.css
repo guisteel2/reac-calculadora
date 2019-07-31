@@ -1,0 +1,47 @@
+.display {
+    background-color: black;
+    /* text-align: center;
+    /* define um tamanho dentro de uma grid view ja criada */
+    grid-column: span 4;
+
+    /* nao permite sair do tamanho da grid */
+    display: flex;
+    /* declara que a letra fica do lado direito */
+    justify-content: flex-end;
+    /* deixa alinhado no centro para nao quebrar */
+    align-items: center;
+    /* padding: 20px;
+    /* tamanho da font
+    font-size:2.1em; */
+}
+
+.display .mtop{
+    font-size: 19px;
+    align-items: center;
+    margin-top: -55%;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    margin: -63px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    white-space: normal;
+}
+
+
+.display .mbot{
+    width: 0px;
+    height: 0px;
+    text-align: center;
+    /* define um tamanho dentro de uma grid view ja criada */
+    grid-column: span 4;
+    /* nao permite sair do tamanho da grid */
+    display: flex;
+    /* declara que a letra fica do lado direito */
+    justify-content: flex-end;
+    /* deixa alinhado no centro para nao quebrar */
+    align-items: center;
+    padding: 0px;
+    /* tamanho da font */
+    font-size:2.1em;
+}
+
